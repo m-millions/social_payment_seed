@@ -15,9 +15,13 @@ There are two main files in this project:
  (1) Sends requests to API end-points:
 
  --- To GET a User
+ 
  --- To GET all Users
+ 
  --- To GET all Accounts
+ 
  --- To GET all Transfers
+ 
  --- To POST a new Transfer
 
 
@@ -29,6 +33,8 @@ Print statements have been left in the files to facilitate steppiing through the
 WHAT the code DOES NOT DO:
 
 (1) It does not check to see that the SENDER account ID is the same as the RECEPIENTS account ID
+
 (2) It does not subtract from the SENDER's account balance after a transfer has gone through
+
 (3) It does not handle the concept of PREFERED/DEFAULT account for either SENDER or RECEPIENT
 
