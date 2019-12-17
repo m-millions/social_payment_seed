@@ -2,6 +2,7 @@ README
 
 There are two main files in this project:
  (1) they both run on Python 2.7, and 
+ 
  (2) to run the code, you must have requests installed on you virtual environment ( or which ever environment you run the code )
 
  If you wish to integrate the code into your code base, please use file "ellevest_class.py". ( Ideally this file should be called "transfer_class.py". )
@@ -15,9 +16,13 @@ There are two main files in this project:
  (1) Sends requests to API end-points:
 
  --- To GET a User
+ 
  --- To GET all Users
+ 
  --- To GET all Accounts
+ 
  --- To GET all Transfers
+ 
  --- To POST a new Transfer
 
 
@@ -36,6 +41,7 @@ WHAT the code DOES NOT DO:
 SAMPLE API RESONPONSES, abbreviated PAYLOADS:
 
 USERS
+```
 [
 {
 	"id": 1,
@@ -56,9 +62,10 @@ USERS
 },
 ...
 ]
-
+```
 
 ACCOUNTS
+```
 [
 {
 	"id": 1,
@@ -68,9 +75,10 @@ ACCOUNTS
 },
 ...
 ]
-
+```
 
 TRANSFERS
+```
 [
 {
 	"status": "Initiated",
@@ -85,3 +93,4 @@ TRANSFERS
 },
 ...
 ]
+```
