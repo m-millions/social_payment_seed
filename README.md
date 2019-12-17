@@ -4,9 +4,9 @@ There are two main files in this project:
  (1) they both run on Python 2.7, and 
  (2) to run the code, you must have requests installed on you virtual environment ( or which ever environment you run the code )
 
- If you wish to integrate the code into your code base, please use file "ellevest_class.py". ( Ideally this file should be called "transfer_class.py". )
+ If you wish to integrate the code into your code base, please use file "transfer_class.py". 
 
- It is recommended that you run this code for this walk-through, the fastes way, and that is by running manual commands using file "ellevest_script.py".  
+ It is recommended that you run this code for this walk-through, the fastes way, and that is by running manual commands using file "transfer_script.py".  
 
  The code is well-documented, self-descriptive, and easy to test and step through via the command line.
 
