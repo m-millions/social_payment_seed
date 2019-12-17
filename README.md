@@ -1,4 +1,4 @@
-**README
+**README**
 
 There are two main files in this project:
  (1) they both run on Python 2.7, and 
@@ -11,7 +11,7 @@ There are two main files in this project:
 
  The code is well-documented, self-descriptive, and easy to test and step through via the command line.
 
- **WHAT the code DOES:
+ **WHAT the code DOES:**
 
  (1) Sends requests to API end-points:
 
@@ -31,7 +31,7 @@ The code also performs various transformations and checks on the data.  Those st
 Print statements have been left in the files to facilitate steppiing through the code, since formal test-cases are not included.  Code has been throughly tested.  
 
 
-**WHAT the code DOES NOT DO:
+**WHAT the code DOES NOT DO:**
 
 (1) It does not check to see that the SENDER account ID is the same as the RECEPIENTS account ID
 
@@ -40,9 +40,9 @@ Print statements have been left in the files to facilitate steppiing through the
 (3) It does not handle the concept of PREFERED/DEFAULT account for either SENDER or RECEPIENT
 
 
-**SAMPLE API RESONPONSES, abbreviated PAYLOADS:
+**SAMPLE API RESONPONSES, abbreviated PAYLOADS:**
 
-**USERS
+**USERS**
 ```
 [
 {
@@ -66,7 +66,7 @@ Print statements have been left in the files to facilitate steppiing through the
 ]
 ```
 
-**ACCOUNTS
+**ACCOUNTS**
 ```
 [
 {
@@ -79,7 +79,7 @@ Print statements have been left in the files to facilitate steppiing through the
 ]
 ```
 
-**TRANSFERS
+**TRANSFERS**
 ```
 [
 {
