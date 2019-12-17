@@ -319,7 +319,7 @@ def post_transfer(transfer_data):
         print('Success!')
         print( '--- --- ---' )
 
-    #return transfer_success
+    return transfer_success
 
 
 # >>> >>> >>> * >>> >>> >>> * >>> >>> >>>  CORE PROCESSING   <<< <<< <<< * <<< <<< <<< * <<< <<< <<<
@@ -449,7 +449,7 @@ def process_transfer(sender_id='1',
 
     transfer_success = post_transfer(transfer_data)
 
-    return transfer_data
+    return transfer_data, transfer_success
 
 
 # >>> >>> >>> * >>> >>> >>> * >>> >>> >>>   END CODE   <<< <<< <<< * <<< <<< <<< * <<< <<< <<<
