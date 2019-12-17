@@ -1,6 +1,7 @@
 **README**
 
 There are two main files in this project:
+
  (**1**) they both run on Python 2.7, and 
  
  (**2**) to run the code, you must have requests installed on you virtual environment ( or which ever environment you run the code )
